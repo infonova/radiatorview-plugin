@@ -1,7 +1,6 @@
 package hudson.model;
 
 import hudson.Extension;
-import hudson.Functions;
 import hudson.Util;
 import hudson.model.Descriptor.FormException;
 import hudson.util.FormValidation;
@@ -10,7 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
@@ -23,7 +21,6 @@ import org.apache.commons.lang.StringUtils;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 import org.kohsuke.stapler.StaplerRequest;
-import org.mortbay.log.Log;
 
 /**
  * A configurable Radiator-Style job view suitable for use in extreme feedback
