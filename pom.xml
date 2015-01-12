@@ -9,7 +9,7 @@
     <artifactId>radiatorviewplugin</artifactId>
     <packaging>hpi</packaging>
     <name>Radiator View Plugin</name>
-    <version>1.23-INFONOVA-1-SNAPSHOT</version>
+    <version>1.23-INFONOVA-1</version>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/Radiator+View+Plugin</url>
     <description>Adds a new high visibility view of project status.</description>
     <!--
@@ -21,7 +21,7 @@
         <connection>scm:git:http://git.infonova.at:8080/gitblit/r/jenkins/plugins/radiatorview-plugin-infonova.git</connection>
         <developerConnection>scm:git:http://git.infonova.at:8080/gitblit/r/jenkins/plugins/radiatorview-plugin-infonova.git</developerConnection>
         <url>http://git.infonova.at:8080/gitblit/summary/jenkins!plugins!radiatorview-plugin-infonova.git</url>
-        <tag>HEAD</tag>
+        <tag>radiatorviewplugin-1.23-INFONOVA-1</tag>
     </scm>
 
     <developers>
